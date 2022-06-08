@@ -20,6 +20,6 @@ public class HammingNumber
             if (hammingNumber[index] == p3) p3 = hammingNumber[++j] * three;
             if (hammingNumber[index] == p5) p5 = hammingNumber[++k] * five;
         }
-        return (int)hammingNumber[n - 1];
+        return (long)hammingNumber[n - 1];
     }
 }
